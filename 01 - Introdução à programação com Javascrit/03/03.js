@@ -204,15 +204,15 @@ function calculaBolo(A, B, C) {
   let mensagemQtBolos = "";
 
     if((A == B) && (B == C)){
-			  mensagemQtBolos = `Total de bolos: ${A}`
+      mensagemQtBolos = `Total de bolos: ${A}`
 		} else if ((A < B) && (A < C)){
-        mensagemQtBolos = `Total de bolos: ${Math.trunc(A)}` 
+      mensagemQtBolos = `Total de bolos: ${Math.trunc(A)}` 
 		}
 		if ((B < A) || (B < C)){
-				mensagemQtBolos =  `Total de bolos ${Math.trunc(B)}`
+		  mensagemQtBolos =  `Total de bolos ${Math.trunc(B)}`
     }  
     if ((C < A) || (C < B)){
-        mensagemQtBolos = `Total de bolos ${Math.trunc(C)}`
+      mensagemQtBolos = `Total de bolos ${Math.trunc(C)}`
     }
   return alert(mensagemQtBolos);
 }
