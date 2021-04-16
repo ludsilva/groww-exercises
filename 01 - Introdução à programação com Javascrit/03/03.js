@@ -209,7 +209,7 @@ function calculaBolo(A, B, C) {
       mensagemQtBolos = `Total de bolos: ${Math.trunc(A)}` 
     }
     if ((B < A) || (B < C)){
-		  mensagemQtBolos =  `Total de bolos ${Math.trunc(B)}`
+      mensagemQtBolos =  `Total de bolos ${Math.trunc(B)}`
     }
     if ((C < A) || (C < B)){
       mensagemQtBolos = `Total de bolos ${Math.trunc(C)}`
