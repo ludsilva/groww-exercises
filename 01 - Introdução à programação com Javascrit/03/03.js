@@ -205,10 +205,10 @@ function calculaBolo(A, B, C) {
 
     if((A == B) && (B == C)){
 			  mensagemQtBolos = `Total de bolos: ${A}`
-		} else if ((A < B) && (A < C)) {
+		} else if ((A < B) && (A < C)){
         mensagemQtBolos = `Total de bolos: ${Math.trunc(A)}` 
 		}
-		if ((B < A) || (B < C)) {
+		if ((B < A) || (B < C)){
 				mensagemQtBolos =  `Total de bolos ${Math.trunc(B)}`
     }  
     if ((C < A) || (C < B)){
