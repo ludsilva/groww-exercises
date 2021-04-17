@@ -111,16 +111,16 @@ function calculaCampeao(campeonato) {
     for(var i = 1; i <= tamanhoObjeto; i++){
         if(campeonato.jogos[i].flarinthians === "vitoria"){
             contadorFla++
-		}
+        }
         if(campeonato.jogos[i].gremense=== "vitoria"){
             contadorGre++
-		}
+        }
         if(campeonato.jogos[i].palmasco=== "vitoria"){
             contadorPal++
-		}
+        }
         if(campeonato.jogos[i].SantsFogo=== "vitoria"){
             contadorSant++
-		}
+        }
     }
     let mensagem = `Vitórias do Flarinthins: ${contadorFla} \nVitórias do Gremense: ${contadorGre} \nVitórias do Palmasco: ${contadorPal} \nVitórias do SantsFogo: ${contadorSant}`
     return alert(mensagem)
