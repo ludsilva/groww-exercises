@@ -109,23 +109,21 @@ function calculaCampeao(campeonato) {
 	let contadorSant = 0;
 
     for(var i = 1; i <= tamanhoObjeto; i++){
-
         if(campeonato.jogos[i].flarinthians === "vitoria"){
-			contadorFla++
+            contadorFla++
 		}
-		if(campeonato.jogos[i].gremense=== "vitoria"){
-			contadorGre++
+        if(campeonato.jogos[i].gremense=== "vitoria"){
+            contadorGre++
 		}
-		if(campeonato.jogos[i].palmasco=== "vitoria"){
-			contadorPal++
+        if(campeonato.jogos[i].palmasco=== "vitoria"){
+            contadorPal++
 		}
-		if(campeonato.jogos[i].SantsFogo=== "vitoria"){
-			contadorSant++
+        if(campeonato.jogos[i].SantsFogo=== "vitoria"){
+            contadorSant++
 		}
     }
     let mensagem = `Vitórias do Flarinthins: ${contadorFla} \nVitórias do Gremense: ${contadorGre} \nVitórias do Palmasco: ${contadorPal} \nVitórias do SantsFogo: ${contadorSant}`
     return alert(mensagem)
-	
 }
 
 //P.S.: essa questão eu falhei miseravelmente em pensar algo novo... 
